@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import bitCarverLogo from './assets/bit-carver-logo.png'
 import './App.css'
 
 function App() {
@@ -9,24 +8,21 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://github.com/BitCarver" target="_blank">
+          <img src={bitCarverLogo} className="logo" alt="BitCarver logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className='title'>Welcome to ShipHub</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+        <p className="description">
+          For all of your shipping & tracking needs!
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the BitCarver Logo to visit my GitHub Profile
       </p>
     </>
   )
