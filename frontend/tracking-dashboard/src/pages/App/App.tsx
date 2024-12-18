@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import bitCarverLogo from './assets/bit-carver-logo.png'
+import bitCarverLogo from '../../assets/bit-carver-logo.png'
 import './App.css'
 
 function App() {
