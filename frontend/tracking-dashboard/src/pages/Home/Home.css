@@ -1,10 +1,8 @@
-#root {
-    max-width: 1280px;
-    margin: auto;
-    padding: 2rem;
+
+  #root {
+    display: block;
     text-align: center;
   }
-  
   .logo {
     height: 10em;
     padding: 3.5em;
@@ -15,19 +13,11 @@
     filter: drop-shadow(0 0 3em #fae8ac);
   }
   
-  .card {
-    padding: 2em;
-  }
-  
   .title {
-    color: #2d4b62
+    color: #6dddeb;
   }
   
   .description {
-    color: #6ef6f8
-  }
-  
-  .read-the-docs {
-    color: #3ca8bb;
+    color: #b4cbd0;
   }
   

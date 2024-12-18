@@ -1,4 +1,4 @@
-import bitCarverLogo from '../../assets/bit-carver-logo.png'
+import shipHubLogo from "../../assets/ShipHubLogo.png"
 import './Home.css'
 
 const Home = () => {
@@ -6,15 +6,10 @@ const Home = () => {
         <>
             <div>
                 <a href="https://github.com/BitCarver" target="_blank">
-                    <img src={bitCarverLogo} className="logo" alt="BitCarver logo" />
+                    <img src={shipHubLogo} className="logo" alt="BitCarver logo" />
                 </a>
             </div>
             <h1 className='title'>Welcome to ShipHub</h1>
-            <div className="card">
-                <p className="description">
-                    For all of your shipping & tracking needs!
-                </p>
-            </div>
             <p className="read-the-docs">
                 Click on the BitCarver Logo to visit my GitHub Profile
             </p>

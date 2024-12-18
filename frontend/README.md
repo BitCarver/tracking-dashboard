@@ -1,6 +1,6 @@
 # This directory has the frontend components
 ## Colors Used
-* Moonstone: `#3ca8bb`
-* Robin's Egg: `#6ef6f8`
-* Deep Ocean: `#2d4b62`
-* Lemon Candy: `#fae8ac`
+* Background (Deep Ocean): `#2e4662`
+* Primary Text (Aprils Tears): `#b4cbd0`
+* Header Text (Turqoise Sea): `#6dddeb`
+* Glow Effect (Lemon Candy): `#fae8ac`
